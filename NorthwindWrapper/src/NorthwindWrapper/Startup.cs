@@ -31,7 +31,7 @@ namespace NorthwindWrapper
             // Add framework services.
             services.AddMvc();
 
-            services.Configure<NorthwindSettings>(Configuration.GetSection("Northwind"));
+            services.Configure<AccessSettings>(Configuration.GetSection("Access"));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

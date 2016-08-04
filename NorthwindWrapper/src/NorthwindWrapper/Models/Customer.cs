@@ -3,10 +3,10 @@
 namespace NorthwindWrapper.Models
 {
     /// <summary>
-    /// Defines the shipper object.
+    /// Defines the customer object.
     /// </summary>
-    [AccessTable("Shippers", "ID")]
-    public class Shipper : AddressItem
+    [AccessTable("Customers", "ID")]
+    public class Customer : AddressItem
     {
         // No specific properties
     }

@@ -1,6 +1,9 @@
 ﻿namespace NorthwindWrapper.Utilities
 {
-    public class NorthwindSettings
+    /// <summary>
+    /// Defines the nortwind settings.
+    /// </summary>
+    public class AccessSettings
     {
         /// <summary>
         /// Get the connection string.
